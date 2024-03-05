@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-family: 'inter';
+    font-size: 1.4rem;
+    background-color: hsl(0, 0%, 8%);
+    
+
+    height: 100vh;
+}
+
+.flexContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: hsl(0, 0%, 12%);
+    min-width: 15.625rem;
+    padding: 3.4rem;
+    
+    gap: 1.4rem;
+    min-height: 40rem;
+    border-radius: 0.8rem;
+}
+
+.profile_data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile_data img{
+    border-radius: 50%;
+    width: 8rem;
+}
+
+.nameLocation{
+    text-align: center;
+    margin: 1.8rem 0;
+}
+
+.profileName{
+    font-size: 2.4rem;
+}
+
+.profileLocation{
+    color: hsl(75, 94%, 57%);
+}
+
+.ProfileAbout{
+    color: hsla(0, 0%, 100%, 75%);
+    font-size: 1.2rem;
+}
+
+.profileLinks{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.profileLinks a{
+    text-decoration: none;
+    color: white;
+    background-color: #333333;
+    padding: 1rem 7rem;
+    border-radius: 0.8rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.profileLinks a:hover{
+    color: hsl(0, 0%, 8%);
+    background-color: hsl(75, 94%, 57%);
+}
+
