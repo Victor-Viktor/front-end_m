@@ -1,0 +1,55 @@
+@charset "URF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+.dark{
+    color: darkgrey;
+}
+
+.title{
+    font-size: 20px;
+}
+
+.statOverview{
+    height: 45vh;
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: white;
+
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding: 24px 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.summaryScore{
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+
+    text-align: center;
+
+    padding: 20px 35px;
+    border-radius: 50%;
+}
+.score_num{
+    font-size: 50px;
+}
+
+.score_title{
+    font-size: 26px;
+}
+
+.briefing{
+    width: 75%;
+    text-align: center;
+}
