@@ -17,8 +17,12 @@ body{
     font-size: 20px;
 }
 
+.stat_num{
+    color: black;
+}
+
 .statOverview{
-    height: 45vh;
+    height: 275px;
     background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     color: white;
 
@@ -52,4 +56,71 @@ body{
 .briefing{
     width: 75%;
     text-align: center;
+}
+
+.statFull{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    margin-top: 16px;
+}
+
+.stats{
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+
+.stat{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    align-items: center;
+    background-color: aqua;
+    height: 7vh;
+    width: 70vw;
+    padding: 0 20px;
+    border-radius: 8px;
+}
+
+.stat_reaction{
+    color: hsl(0, 100%, 67%);
+    background-color: #FFF7F5;
+}
+
+.stat_memory{
+    color: hsl(39, 100%, 56%);
+    background-color: #FDFDEF;
+}
+
+.stat_verbal{
+    color: hsl(166, 100%, 37%);
+    background-color: #F2FBFA;
+}
+
+.stat_visual{
+    color: hsl(234, 85%, 45%);
+    background-color: hsl(221, 100%, 96%);
+}
+
+.btn{
+    padding: 14px 110px;
+    background-color:hsl(224, 30%, 27%);
+    color: white;
+    text-decoration: none;
+    border-radius: 34px;
+}
+
+.btn:hover{
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));;
+}
+
+.statFull > .title{
+    margin-left: -190px;
+}
+
+.icon{
+    display: flex;
+    gap: 12px;
 }
