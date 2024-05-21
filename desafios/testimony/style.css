@@ -11,11 +11,12 @@ body{
     font-size: 13px;
     font-family: "Barlow Semi Condensed", sans-serif;
     font-weight: 500, 600;
-    background-color: lightgray;
+    background-color: #ECF2F7;
 }
 
 .gridContainer{
-    grid-auto-rows: 1fr;
+    display: grid;
+    grid-auto-rows: auto;
 }
 
 img{
@@ -25,10 +26,11 @@ img{
 .testimony{
     max-width: 255px;
     padding: 25px;
-    margin: 25px;
+    margin: 12px;
     border-radius: 8px;
     background-color: bisque;
     color: white;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.514);
 }
 
 .tm_purp{

@@ -1,0 +1,32 @@
+body, html{
+    max-width: 100vw;
+    max-height: 100vh;
+    padding: 50px 150px;
+    background-color: lightblue;
+}
+
+.gridContainer{
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    height: 100%;
+    padding: 100px;
+    background-color: #ECF2F7;
+    border-radius: 8px;
+}
+
+.testimony{
+    max-width: 100%;
+}
+
+.tm_purp{
+    grid-column: 1/3;
+}
+
+.kira{
+    grid-column: 4;
+    grid-row: 1/-1;
+}
+
+.tm_DG{
+    grid-column: 2/4;
+}
