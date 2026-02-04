@@ -1,0 +1,54 @@
+@media(min-width: 1000px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        padding: 90px 130px;
+    }
+    header img{
+        width: 70px;
+        margin-left: 50px;
+    }
+    #open{
+        display: none;
+    }
+    .altMenu{
+        cursor: pointer;
+    }
+    #desktopMenu{
+        display: flex;
+        gap: 50px;
+    }
+    #mainImg{
+        src: url(assets/images/image-web-3-desktop.jpg);
+        width: 85%;
+        height: 300px;
+        margin-left: 55px;
+    }
+    #title{
+        font-size: 55px;
+        padding: 15px 50px;
+        letter-spacing: 1px;
+        line-height: 53px;
+    }
+    .contentText{
+        width: 43%;
+    }
+    .mainContent{
+        flex-direction: row;
+    }
+    #mainPage{
+        display: flex;
+        flex-direction: column;
+    }
+    .mainContainer{
+        display: flex;
+    }
+
+    #more{
+        flex-direction: row;
+        margin-left: 50px;
+    }
+
+}

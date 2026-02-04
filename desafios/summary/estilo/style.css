@@ -1,0 +1,174 @@
+@charset "URF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%; 
+}
+body{
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 1.6rem;
+    background-color: #F5F5F5;
+}
+
+.dark{
+    color: darkgrey;
+}
+
+.title{
+    font-size: 2rem;
+}
+
+.stat_num{
+    color: black;
+}
+
+.statOverview{
+    height: 26rem;
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: white;
+
+    border-bottom-left-radius: 4rem;
+    border-bottom-right-radius: 4rem;
+    padding: 2.4rem 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.summaryScore{
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+
+    text-align: center;
+
+    padding: 2rem 3.5rem;
+    border-radius: 50%;
+}
+.score_num{
+    font-size: 5rem;
+}
+
+.score_title{
+    font-size: 2.6rem;
+}
+
+.briefing{
+    width: 75%;
+    text-align: center;
+}
+
+.statFull{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.8rem;
+    margin-top: 1.6rem;
+    margin-bottom: 2.4rem;
+}
+
+.stats{
+    display: flex;
+    flex-direction: column;
+    gap: 1.9rem;
+}
+
+.stat{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    align-items: center;
+    background-color: aqua;
+    height: 5.5rem;
+    width: 70vw;
+    padding: 0 2rem;
+    border-radius: .8rem;
+}
+
+.stat_reaction{
+    color: hsl(0, 100%, 67%);
+    background-color: #FFF7F5;
+}
+
+.stat_memory{
+    color: hsl(39, 100%, 56%);
+    background-color: #FDFDEF;
+}
+
+.stat_verbal{
+    color: hsl(166, 100%, 37%);
+    background-color: #F2FBFA;
+}
+
+.stat_visual{
+    color: hsl(234, 85%, 45%);
+    background-color: hsl(221, 100%, 96%);
+}
+
+.btn{
+    padding: 1.4rem 11rem;
+    background-color:hsl(224, 30%, 27%);
+    color: white;
+    text-decoration: none;
+    border-radius: 3.4rem;
+    margin-top: 1.6rem;
+}
+
+.btn:hover{
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));;
+}
+
+.statFull > .title{
+    margin-left: -19rem;
+}
+
+.icon{
+    display: flex;
+    gap: 1.2rem;
+}
+
+@media screen and (min-width:376px) {
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 100vw;
+        height: 100vh;
+    }
+    .wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70rem;
+        height: 44.8rem;
+        background-color: white;
+        border-radius: 4rem;
+
+        box-shadow: .5rem .5rem 1.5rem rgba(0, 0, 0, 0.356);
+    }
+
+    .statOverview{
+        width: 50%;
+        height: 40rem;
+        border-radius: 4rem;
+    }
+
+    .summaryScore{
+        width: 7rem;
+        height: 9rem;
+    }
+
+    .statFull{
+        width: 50%;
+        height: 40rem;
+    }
+
+    .stat{
+        width: 24rem;
+    }
+}
