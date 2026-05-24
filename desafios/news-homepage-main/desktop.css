@@ -3,34 +3,39 @@
         margin: 0;
         padding: 0;
     }
+    html{
+    font-size: 62.5%;
+    }
     body{
-        padding: 90px 130px;
+        padding: 9.5rem 30rem;
     }
     header img{
-        width: 70px;
-        margin-left: 50px;
+        width: 7rem;
+        margin-left: 5rem;
     }
     #open{
         display: none;
     }
     .altMenu{
         cursor: pointer;
+        font-size: 1.8rem;
+        color: #707070;
     }
     #desktopMenu{
         display: flex;
-        gap: 50px;
+        gap: 5rem;
     }
     #mainImg{
         src: url(assets/images/image-web-3-desktop.jpg);
         width: 85%;
-        height: 300px;
-        margin-left: 55px;
+        height: 30rem;
+        margin-left: 5.5rem;
     }
     #title{
-        font-size: 55px;
-        padding: 15px 50px;
-        letter-spacing: 1px;
-        line-height: 53px;
+        font-size: 5.5rem;
+        padding: 1.5rem 5rem;
+        letter-spacing: .1rem;
+        line-height: 5.3rem;
     }
     .contentText{
         width: 43%;
@@ -44,11 +49,12 @@
     }
     .mainContainer{
         display: flex;
+        
     }
 
     #more{
         flex-direction: row;
-        margin-left: 50px;
+        margin-left: 5rem;
     }
 
 }

@@ -5,11 +5,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    font-size: 62.5%;
+}
 body{
     font-family: "Inter", sans-serif;
     display: flex;
     flex-direction: column;
-    padding: 15px;
+    padding: 1.5rem;
 }
 
 header{    
@@ -18,8 +21,8 @@ header{
 }
 
 header img{
-    width: 46px;
-    margin: 14px 5px 32px 0px;
+    width: 4.6rem;
+    margin: 1.4rem .5rem 3.2rem 0;
 }
 
 #mainImg{
@@ -27,17 +30,17 @@ header img{
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 299px;
-    margin-bottom: 22px;
+    height: 29.9rem;
+    margin-bottom: 2.2rem;
 }
 
 #title{
-    font-size: 40px;
+    font-size: 4rem;
     font-weight: bold;
-    line-height: 40px;
-    margin-left: 3px;
-    margin-bottom: 15px;
-    letter-spacing: 1.2px;
+    line-height: 4rem;
+    margin-left: .3rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 1.2rem;
 }
 
 .blueText{
@@ -45,24 +48,24 @@ header img{
 }
 
 span{
-    font-size: 15px;
-    line-height: 26px;
+    font-size: 1.5rem;
+    line-height: 2.6rem;
     color: #707070;
-    margin-left: 0px;
-    margin-bottom: 24px;
+    margin-left: 0;
+    margin-bottom: 2.4rem;
     letter-spacing: 0.1px;
 }
 
 .readBtn{
     width: fit-content;
-    padding: 16px 29px;
-    margin-left: 2px;
-    font-size: 14px;
+    padding: 1.6rem 2.9rem;
+    margin-left: .2rem;
+    font-size: 1.4rem;
     font-weight: bold;
     background-color: #F15D51;
     text-transform: uppercase;
-    letter-spacing: 4.5px;
-    margin-bottom: 64px;
+    letter-spacing: .405rem;
+    margin-bottom: 6.4rem;
 }
 .readBtn:hover{
     background-color: #00001A;
@@ -72,39 +75,39 @@ span{
 #newBlue{
     background-color: #00001A;
     color: white;
-    padding: 20px 23px;
-    margin-bottom: 65px;
+    padding: 2rem 2.3rem;
+    margin-bottom: 6.5rem;
 }
 .yellowTitle{
-    font-size: 33px;
+    font-size: 3.3rem;
     font-weight: bold;
     color: #E7AA60;
-    margin-bottom: 29px;
+    margin-bottom: 2.9rem;
 }
 .titleBlue{
     font-weight: bold;
-    font-size: 20px;
-    margin-bottom: 11px;
+    font-size: 2rem;
+    margin-bottom: 1.1rem;
     letter-spacing: 0.2px;
 }
 .textBlue{
-    font-size: 14px;
+    font-size: 1.4rem;
     letter-spacing: 0.39px;
-    line-height: 23px;
+    line-height: 2.3rem;
 }
 
 .line{
     width: 100%;
-    height: 1px;
-    margin: 33px 0;
+    height: 0.1rem;
+    margin: 3.3rem 0;
     background-color: white;
 }
 
 #more{
     display: flex;
     flex-direction: column;
-    gap: 30px;
-    margin-bottom: 20px;
+    gap: 3rem;
+    margin-bottom: 2rem;
 }
 #more img{
     width: 29%;
@@ -115,23 +118,23 @@ span{
     cursor: pointer;
 }
 .moreContent{
-    padding: 0px 20px;
+    padding: 0px 2rem;
 }
 .moreNum{
     font-weight: bolder;
-    font-size: 33px;
+    font-size: 3.3rem;
     color: #E06862;
-    margin-bottom: 8px;
-    letter-spacing: 2px;
+    margin-bottom: .8rem;
+    letter-spacing: .2rem;
 }
 .moreTitle{
     font-weight: bold;
-    font-size: 17px;
+    font-size: 1.7rem;
     letter-spacing: 0.3px;
-    margin-bottom: 10px;    
+    margin-bottom: 1rem;    
 }
 .moreSpan{
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 
 .fullMenu{
@@ -159,23 +162,23 @@ span{
 .menuOptions{
     display: flex;
     flex-direction: column;
-    padding: 28px;
+    padding: 2.8rem;
     width: 70%;
-    max-width: 420px;
+    max-width: 42rem;
     background-color: white;
 }
 #close{
     background-image: url(assets/images/icon-menu-close.svg);
-    width: 30px;
-    height: 30px;
+    width: 3rem;
+    height: 3rem;
     background-repeat: no-repeat;
     align-self: flex-end;
-    margin-bottom: 88px;
+    margin-bottom: 8.8rem;
 }
 
 .option{
-    font-size: 18px;
-    margin-bottom: 27px;
+    font-size: 1.8rem;
+    margin-bottom: 2.7rem;
     cursor: pointer;
 }
 
@@ -193,6 +196,5 @@ span{
 }
 
 #desktopMenu{
-    display: none;
-    
+    display: none;    
 }
